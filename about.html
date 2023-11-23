@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add some style to the page */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+        }
+
+        /* Style the header */
+        .header {
+            padding: 1px;
+            background-color: white;
+        }
+
+        /* Style the logo */
+        .logo {
+            width: 280px;
+            height: 170px;
+            float: left;
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            overflow: visible;
+            background-color: #0E4D92;
+        }
+
+            /* Style the navigation links */
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                background-color: #0E4D92;
+            }
+
+                /* Change the color of links on hover */
+                .navbar a:hover {
+                    background-color: darkgoldenrod;
+                    color: black;
+                }
+
+        /* Style the main content */
+        .main {
+            padding: 50px;
+            background-color: white;
+            width: 90%;
+        }
+
+        /* Style the subtopic images */
+        .subtopic-image {
+            width: 30%;
+            height: 250px;
+        }
+
+        /* Style the subtopic sections */
+        .subtopic-section {
+            display: flex;
+            align-items: inherit;
+            justify-content: space-evenly;
+            margin: 10px 0;
+        }
+        /* Style the footer */
+        .footer {
+            padding: 50px;
+            background-color: #17182b;
+            color: white;
+            width:100%;
+        }
+        /* Style the footer */
+        .footer {
+            padding: 50px;
+            background-color: #0E4D92;
+            color: white;
+            width: 100%;
+        }
+        
+        /* Style the newsletter */
+        .newsletter {
+            width: 50%;
+            margin: 0 auto;
+            border: 0px solid #ccc;
+            padding: 20px;
+            text-decoration-color: white;
+            flow-from: left;
+        }
+
+            /* Style the newsletter input */
+            .newsletter input {
+                width: 80%;
+                margin: 10px 0;
+                padding: 10px;
+            }
+            /* Style the newsletter button */
+            .newsletter button {
+                width: 20%;
+                margin: 10px 0;
+                padding: 10px;
+                background-color: darkgoldenrod;
+                color: white;
+                border: none;
+            }
+
+
+
+        /* Style the subtopic paragraphs */
+        .subtopic-paragraph {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Create the header with the logo -->
+    <div class="header">
+        <img src="C:\Users\saddi\OneDrive\Desktop\photo_2023-11-18_10-59-28.jpg" alt="Logo" class="logo">
+        <h1>DEPARTMENT OF COMPUTER SCIENCE</h1>
+    </div>
+
+    <!-- Create the navigation bar with the tabs -->
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="research.html">Research</a>
+        <a href="news.html">News</a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="faculty.html">Faculty</a>
+        <a href="events.html">Events</a>
+        <a href="resources.html">Resources</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+
+    <!-- Create the main content with the welcome message -->
+    <div class="main">
+        <p></p>
+        <p><h2 align="left">About Us</h2></p>
+        <p>Welcome to the Department of Computer Science at the University of Ghana. We are a vibrant and diverse community of scholars, educators, and innovators who share a passion for computing and its applications. We are committed to excellence in teaching, research, and service to society.</p>
+        <p>Our department was established in 1974 as the first computer science department in Ghana and one of the earliest in Africa. Since then, we have grown to become a leading academic and research institution in the field of computing on the continent and beyond. We have produced many graduates who have made significant contributions to the development of the nation and the world.</p>
+        <h3>Get to Know Us</h3>
+        <!-- Create the subtopic section for Our Community -->
+        <div class="subtopic-section">
+            <img src="C:\Users\saddi\Downloads\desola-lanre-ologun-IgUR1iX0mqM-unsplash (1).jpg" alt="Our Community" class="subtopic-image">
+            <div class="subtopic-paragraph">
+                <h4>Our Community</h4>
+                <p>Our department is home to over 1000 students, 50 faculty members, and 20 staff members. We have a diverse and inclusive culture that values respect, collaboration, and innovation. We foster a supportive and friendly environment where everyone can thrive and grow. We also have strong ties with our alumni, industry partners, and other stakeholders who enrich our academic and social activities.</p>
+            </div>
+        </div>
+        <!-- Create the subtopic section for Our Organization -->
+        <div class="subtopic-section">
+            <div class="subtopic-paragraph">
+                <h4>Our Organization</h4>
+                <p>Our department is organized into four academic units: Computer Science, Software Engineering, Artificial Intelligence, and Data Science. Each unit offers undergraduate and postgraduate programs that are designed to meet the needs and interests of our students. We also have several research centers and laboratories that conduct cutting-edge research in various areas of computing, such as cybersecurity, machine learning, natural language processing, computer vision, and human-computer interaction.</p>
+            </div>
+            <img src="C:\Users\saddi\Downloads\austin-distel-mpN7xjKQ_Ns-unsplash.jpg" alt="Our Organization" class="subtopic-image">
+        </div>
+        <div class="footer">
+            <h4>Contacts and Location</h4>
+            <p>Email: dcs@ug.edu.gh</p>
+            <p>Phone: +233 30 250 0381</p>
+            <p>Address: P.O. Box LG 25, Legon, Accra, Ghana</p>
+            <p>View on google map : https://maps.app.goo.gl/hzsparZJ1MPnhLBn6</p>
+            <div class="newsletter">
+                <h4>Subscribe to our newsletter</h4>
+                <p>Enter your email address to receive the latest news and updates from the Department of Computer Science.</p>
+                <form>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <!-- Add the copyrigth notice -->
+        <p>© 2023 University of Ghana. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
+
